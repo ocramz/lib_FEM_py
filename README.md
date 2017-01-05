@@ -1,8 +1,10 @@
 # lib_FEM_py
 2D Finite Element library, with extensions for micro-manufacturing simulation
 
+I wrote this library during my PhD to simulate the propagation of optical waves in transparent dielectrics, such as fiber optics or silicon photonic waveguides. In particular, my research focused on how to include the compound effect of manufacturing defects in the device performance prediction and optimisation.
+
 ## Notes on the FE model
-The library implements a 2D Galerkin FE method for solving the Helmholtz wave equation with PML boundary conditions [1] in the linear regime; I wrote it during my PhD to simulate the propagation of optical waves in transparent dielectrics, such as fiber optics or silicon photonic waveguides.
+The library implements a 2D Galerkin FE method for solving the Helmholtz wave equation with PML boundary conditions [1] in the linear regime and on a uniform mesh.
 
 
 ## Notes on the micro-manufacturing model
